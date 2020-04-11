@@ -30,7 +30,7 @@
             class="d-flex justify-space-between"
           >
             <span>Explore Package x{{explorePackage.packageSelected}}</span>
-            <b>${{ explorePackageTotal }}</b>$
+            <b>${{ explorePackageTotal }}</b>
           </div>
           <div 
             v-if="nonDiverPackage.packageSelected > 0"
